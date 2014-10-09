@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Machine Design</title>
+  <link rel="stylesheet" href="css/stateStyles.css">
+</head>
+<body>
+  <div class="site">
+    <div class="logo">
+	  <h1>Machine Design</h1>	
+      <img xxsrc="xximages/site/logo.png" width="207" height="124" alt="" />
+      <h2 class="stateProtoHeader">Machine Element Prototypes</h2>
+    </div>
+    <div id="stateProtos">
+    </div>
+  </div> 
+    <script id="stateProtoElement" type="text/template">
+      <ul>
+        <li class="stateProtoStyle">State: <%= state %></li>
+        <li class="stateProtoStyle" >Proto:<%= proto %></li>
+      </ul>
+    </script>
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/underscore.js"></script>
+  <script src="js/libs/backbone.js"></script>
+  <script src="js/models/singleProtoModel.js"></script>
+  <script src="js/views/stateProtoView.js"></script>
+  <script src="js/views/allProtosView.js"></script>
+  <script src="js/collections/allProtos.js"></script>
+  <script src="js/routes/router.js"></script>
+  <script src="js/stateApp.js"></script>
+
+</body>
+</html>
