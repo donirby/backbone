@@ -1,4 +1,4 @@
-Backbone Basics
+Backbone Basic
 ===============
 
 A repository for developing backbone javascript.
